@@ -1,6 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
-
+import { Helmet } from 'react-helmet-async';
 const Login = () => {
     return (
         <div className='flex flex-col justify-center items-center text-center '>

@@ -6,8 +6,7 @@ import loveImg from '../assets/love.png'
 import Rating from '@mui/material/Rating';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { Helmet } from 'react-helmet';
-import ServiceDetails from './ServiceDetails';
+import { Helmet } from 'react-helmet-async';
 const ServiceDetails = () => {
     const { id } = useParams()
     const { products, wishList, cart, setWishList, setCart } = useContext(AuthContext)

@@ -1,0 +1,167 @@
+[
+    {
+        "product_id": "1",
+        "product_title": "Wireless Bluetooth Earbuds",
+        "product_image": "https://abdur-razzak.online/wp-content/uploads/2024/11/1.jpg",
+        "category": "Audio",
+        "price": 59.99,
+        "description": "High-quality wireless earbuds with noise-canceling technology and 24-hour battery life.",
+        "specification": ["Bluetooth 5.0", "Noise Canceling", "24-hour Battery"],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": "2",
+        "product_title": "Smartwatch Series 5",
+        "product_image": "https://abdur-razzak.online/wp-content/uploads/2024/11/2.webp",
+        "category": "Wearables",
+        "price": 199.99,
+        "description": "A stylish smartwatch with health-tracking features and customizable watch faces.",
+        "specification": ["Heart Rate Monitor", "GPS", "Water Resistant"],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": "3",
+        "product_title": "Portable Power Bank 20000mAh",
+        "product_image": "https://abdur-razzak.online/wp-content/uploads/2024/11/3.jpg",
+        "category": "Accessories",
+        "price": 69.99,
+        "description": "Compact power bank with dual USB ports for charging multiple devices simultaneously.",
+        "specification": ["20000mAh Capacity", "Dual USB", "Fast Charging"],
+        "availability": true,
+        "rating": 4.3
+    },
+    {
+        "product_id": "4",
+        "product_title": "Noise Cancelling Headphones",
+        "product_image": "https://abdur-razzak.online/wp-content/uploads/2024/11/4.jpg",
+        "category": "Audio",
+        "price": 129.99,
+        "description": "Over-ear noise-canceling headphones with crystal-clear sound and comfortable padding.",
+        "specification": ["Over-ear", "Noise Canceling", "Wireless"],
+        "availability": false,
+        "rating": 4.6
+    },
+    {
+        "product_id": "5",
+        "product_title": "4K Action Camera",
+        "product_image": "https://abdur-razzak.online/wp-content/uploads/2024/11/5.webp",
+        "category": "Cameras",
+        "price": 89.99,
+        "description": "Capture stunning 4K videos and high-quality images with this compact action camera.",
+        "specification": ["4K Resolution", "Waterproof", "Wi-Fi Enabled"],
+        "availability": true,
+        "rating": 4.4
+    },
+    {
+        "product_id": "6",
+        "product_title": "Gaming Laptop 15\"",
+        "product_image": "https://abdur-razzak.online/wp-content/uploads/2024/11/6.png",
+        "category": "Computers",
+        "price": 999.99,
+        "description": "High-performance gaming laptop with NVIDIA graphics and 16GB RAM.",
+        "specification": ["15-inch Display", "NVIDIA GTX 1650", "16GB RAM"],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "7",
+        "product_title": "Smartphone Holder Stand",
+        "product_image": "https://abdur-razzak.online/wp-content/uploads/2024/11/7.png",
+        "category": "Accessories",
+        "price": 52.99,
+        "description": "Adjustable phone holder stand for easy viewing and hands-free use.",
+        "specification": ["Adjustable Angle", "Sturdy Build", "Compact"],
+        "availability": true,
+        "rating": 4.2
+    },
+    {
+        "product_id": "8",
+        "product_title": "Home Assistant Smart Speaker",
+        "product_image": "https://abdur-razzak.online/wp-content/uploads/2024/11/8.jpg",
+        "category": "Accessories",
+        "price": 69.99,
+        "description": "Smart speaker with voice assistant capabilities and multi-room audio support.",
+        "specification": ["Voice Control", "Multi-Room Audio", "Bluetooth"],
+        "availability": false,
+        "rating": 4.3
+    },
+    {
+        "product_id": "9",
+        "product_title": "4-Port USB Hub",
+        "product_image": "https://abdur-razzak.online/wp-content/uploads/2024/11/9.jpg",
+        "category": "Accessories",
+        "price": 50,
+        "description": "Expand your connectivity with this compact 4-port USB hub.",
+        "specification": ["4 USB Ports", "Plug & Play", "Compact Design"],
+        "availability": true,
+        "rating": 4.1
+    },
+    {
+        "product_id": "10",
+        "product_title": "Digital Drawing Tablet",
+        "product_image": "https://abdur-razzak.online/wp-content/uploads/2024/11/10.jpg",
+        "category": "Computers",
+        "price": 69.99,
+        "description": "Professional-grade drawing tablet for digital art and graphic design.",
+        "specification": ["8192 Pressure Levels", "Battery-Free Pen", "USB Connectivity"],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": "11",
+        "product_title": "VR Headset",
+        "product_image": "https://abdur-razzak.online/wp-content/uploads/2024/11/11.webp",
+        "category": "Gaming",
+        "price": 199.99,
+        "description": "Immerse yourself in virtual reality with this high-resolution VR headset.",
+        "specification": ["High Resolution", "Comfortable Fit", "Adjustable Lenses"],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "12",
+        "product_title": "Wireless Charger Stand",
+        "product_image": "https://abdur-razzak.online/wp-content/uploads/2024/11/12.jpg",
+        "category": "Accessories",
+        "price": 54.99,
+        "description": "Fast wireless charging stand compatible with all Qi-enabled devices.",
+        "specification": ["Qi Compatible", "Fast Charging", "LED Indicator"],
+        "availability": true,
+        "rating": 4.4
+    },
+    {
+        "product_id": "13",
+        "product_title": "Smart Doorbell Camera",
+        "product_image": "https://abdur-razzak.online/wp-content/uploads/2024/11/13.jpg",
+        "category": "Accessories",
+        "price": 99.99,
+        "description": "See and communicate with visitors remotely with this smart doorbell camera.",
+        "specification": ["1080p HD", "Two-Way Audio", "Motion Detection"],
+        "availability": false,
+        "rating": 4.5
+    },
+    {
+        "product_id": "14",
+        "product_title": "Portable Projector",
+        "product_image": "https://abdur-razzak.online/wp-content/uploads/2024/11/14.jpg",
+        "category": "Accessories",
+        "price": 149.99,
+        "description": "Compact projector perfect for home movie nights and presentations.",
+        "specification": ["1080p Resolution", "Built-in Speaker", "Portable"],
+        "availability": true,
+        "rating": 4.3
+    },
+    {
+        "product_id": "15",
+        "product_title": "Noise-Canceling Wireless Microphone",
+        "product_image": "https://abdur-razzak.online/wp-content/uploads/2024/11/15.jpg",
+        "category": "Audio",
+        "price": 79.99,
+        "description": "Wireless microphone with noise-canceling technology for clear recordings.",
+        "specification": ["Noise Canceling", "Bluetooth", "Rechargeable Battery"],
+        "availability": true,
+        "rating": 4.6
+    }
+]

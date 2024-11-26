@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import cardImage from '../../assets/cart.png'
 import loveImage from '../../assets/love.png'
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import HomeBanner from '../../components/HomeBanner';
 import { AuthContext } from '../../components/AuthProvider';
 const HomeHeader = () => {
@@ -41,7 +41,7 @@ const HomeHeader = () => {
 
                                 </ul>
                             </div>
-                            <a className="btn btn-ghost text-xl">daisyUI</a>
+                            <a className="btn btn-ghost text-xl">Gadget Heaven</a>
                         </div>
                         <div className="navbar-center hidden lg:flex">
                             <ul className="menu menu-horizontal px-4 gap-4 ">
@@ -63,7 +63,7 @@ const HomeHeader = () => {
                                     Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
                                     quasi. In deleniti eaque aut repudiandae et a id nisi.
                                 </p>
-                                <button className="btn btn-primary text-purple-800 hover:bg-white bg-white rounded-full">Shop Now</button>
+                               <Link to='dashBoard'> <button className="btn btn-primary text-purple-800 hover:bg-white bg-white rounded-full">Shop Now</button></Link>
                             </div>
                         </div>
                     </div>

@@ -2,12 +2,35 @@ import React, { useContext, useState } from 'react';
 import { AuthContext } from './AuthProvider';
 import CartProduct from './CartProduct';
 import FourOfour from './FourOfour';
+import { useNavigate } from 'react-router-dom';
+import Modal from './Modal';
 const DashBoardBanner = () => {
     const { products, wishList, cart, setWishList, setCart } = useContext(AuthContext)
     const totalPrice = cart.reduce((sum, product) => sum + product.price, 0);
     const [active, setActive] = useState(false)
+    const navigate = useNavigate()
     const activeHandle = (value) => {
         setActive(value)
+
+    }
+    const sortByPrice = () => {
+
+        if (!active) {
+            const sortCart = [...cart].sort((a, b) => b.price - a.price);
+            setCart(sortCart)
+
+        } else {
+            const sortCart = [...wishList].sort((a, b) => b.price - a.price);
+            setWishList(sortCart)
+            console.log("love sort", wishList)
+
+        }
+    }
+
+    const purchaseHandle = () => {
+
+        setCart([])
+        navigate("/")
 
     }
     return (
@@ -34,8 +57,16 @@ const DashBoardBanner = () => {
                     </div>
                     <div className='flex gap-4'>
                         <h2 className='font-bold text-xl'>Total Cost: {totalPrice}$</h2>
-                        <button className='font-bold text-xl'>Sort by Price</button>
-                        <button className='font-bold text-xl'>Purchase</button>
+                        <button onClick={sortByPrice} className='font-bold text-xl'>Sort by Price</button>
+                        <button
+                            onClick={() => {
+                               
+                                document.getElementById('my_modal_1').showModal();
+                            }}
+                            className='font-bold text-xl'
+                        >
+                            Purchase
+                        </button>
                     </div>
                 </div>
                     :
@@ -51,7 +82,7 @@ const DashBoardBanner = () => {
 
 
                 {
-                    active ? cart.map(product => <CartProduct type="cart" product={product} key={product.product_id}></CartProduct>)
+                    !active ? cart.map(product => <CartProduct type="cart" product={product} key={product.product_id}></CartProduct>)
                         :
                         wishList.map(product => <CartProduct type="wishlist" product={product} key={product.product_id}></CartProduct>)
 
@@ -65,6 +96,9 @@ const DashBoardBanner = () => {
 
 
             </div>
+            <Modal purchaseHandle={purchaseHandle}> 
+                
+            </Modal>
         </div>
     );
 };

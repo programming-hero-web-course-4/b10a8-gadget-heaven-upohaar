@@ -10,6 +10,7 @@ import Statistics from '../Page/Statistics/Statistics'
 // import ServiceDetails from '../Page/ServiceDetails/ServiceDetails'
 import DashBoard from '../Page/DashBoard/DashBoard';
 import ServiceDetails from '../Page/ServiceDetails';
+import FourOfour from '../components/FourOfour';
   const router = createBrowserRouter([
     {
       path: "/",
@@ -36,6 +37,10 @@ import ServiceDetails from '../Page/ServiceDetails';
         {
           path: "dashboard",
           element: <DashBoard></DashBoard>
+        },
+        {
+          path: "*",
+          element: <FourOfour title='Page not found'></FourOfour>
         }
         
 

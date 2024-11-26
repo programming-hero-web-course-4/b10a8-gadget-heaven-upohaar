@@ -1,8 +1,13 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 const Login = () => {
     return (
         <div className='flex flex-col justify-center items-center text-center '>
+             <Helmet>
+                <title>Gadget Heaven | Login</title>
+               
+            </Helmet>
             <div className="hero pt-10 pb-10 text-white bg-purple-700 ">
                 <div className="hero-content text-center">
                     <div className="">

@@ -4,8 +4,7 @@ Welcome to **GadgetHaven**, a sleek and functional e-commerce platform for gadge
 
 ## 🌐 Live Website and Resources
 
-- **Live Website**: [GadgetHaven](#)
-- **Requirement Document**: [Download Requirements](#)
+- **Live Website**: https://gadge-theaven.netlify.app/
 
 ---
 
